@@ -4,23 +4,78 @@
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
+    --fonte-texto: 'Inter', sans-serif;
 }
 
-body{
+body {
+
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
-    
+    font-family: var(--fonte-texto);
+
+
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
+
 /* imagem decorativo coloca pelo css com background image */
 .principal {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    }
-.container{
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__button {
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    border-style: none;
+    padding: 16px;
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    display: block;
+    margin-bottom: 1em;
+}
+.button__secundario{
+    text-align: center;
+    text-decoration: none;
+    border: 2px;
+    border-radius: 8px;
+    border-style: solid;
+    padding: 16px;
+    background-color: transparent;
+    color: var(--branco-principal);
+    display: block;
+    margin-bottom: 1em;
+}
+.container__aviso{
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+.container__titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+/* margin funciona no sentido do "horario"quando vamos definir seus valores entt seria:: 
+topo direita baixo e esquerta "margin::5px 0px 5px 0px" ou selecionar um propriedade
+especifica de margin para definir somente um lado  */
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
 }

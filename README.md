@@ -1,2 +1,2 @@
 # Alura-Plus
-[!Alura Plus (img/capareadme.png)]
+C:\Users\Gusta\OneDrive\Documentos\GitHub\Alura-Plus\img\capareadme.png

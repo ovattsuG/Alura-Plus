@@ -127,6 +127,7 @@ especifica de margin para definir somente um lado  */
     font-family: var(--fonte-texto);
     font-weight: 400;
     font-size: 16px;
+    
 }
 
 /* A regra @keyframes no CSS é utilizada para criar animações.
@@ -148,7 +149,7 @@ Cada keyframe define um estado específico da animação em um determinado ponto
     font-size: 16px;
     color: var(--cinza-secundario);
     margin-bottom: 1em;
-    animation: colorChange 15s infinite; 
+    animation: colorChange 7s infinite; 
 }
 
 .imagem__telas {

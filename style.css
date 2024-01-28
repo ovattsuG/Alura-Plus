@@ -48,6 +48,11 @@ body {
     display: block;
     margin-bottom: 1em;
 }
+.container__button:hover{
+    text-decoration:underline;
+    font-weight: 700;
+    padding: 18px;
+}
 
 .button__secundario {
     text-align: center;
@@ -60,6 +65,11 @@ body {
     color: var(--branco-principal);
     display: block;
     margin-bottom: 1em;
+}
+.button__secundario:hover{
+    text-decoration:underline;
+    font-weight: 700;
+    padding: 18px;
 }
 
 .container__aviso {
@@ -109,7 +119,6 @@ especifica de margin para definir somente um lado  */
     font-weight: 400;
     font-size: 16px;
     opacity: 80%;
-
 }
 
 
@@ -120,13 +129,26 @@ especifica de margin para definir somente um lado  */
     font-size: 16px;
 }
 
+/* A regra @keyframes no CSS é utilizada para criar animações.
+Ela permite especificar os estágios intermediários de uma animação
+usando uma série de pontos-chave, que são chamados de "keyframes".
+Cada keyframe define um estado específico da animação em um determinado ponto no tempo. */
+
+@keyframes colorChange {
+    0% { color: rgb(255, 255, 255); }
+    25% { color: rgb(2, 251, 230); }
+    50% { color: green; }
+    75% { color: orange; }
+    100% { color: rgb(255, 255, 255); }
+  }
+
 .texto__descricao {
     font-family: var(--fonte-texto);
     font-weight: 400;
     font-size: 16px;
     color: var(--cinza-secundario);
-    opacity: 80%;
     margin-bottom: 1em;
+    animation: colorChange 15s infinite; 
 }
 
 .imagem__telas {
@@ -135,3 +157,54 @@ especifica de margin para definir somente um lado  */
 }
 
 /* para algumas section reutilizamos classes ja usadas em sections ateriores*/
+
+.dispositivos {
+    text-align: center;
+}
+
+.lista__item {
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 5em 0;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+}
+
+/* css do footer */
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
+}
+.rodape__texto{
+    padding: 1em;
+    color: var(--cinza-secundario);
+    font-family: var(--fonte-texto);
+    font-weight: 400;
+    font-size: 14px;
+}
+.rodape__logo{
+    margin-top: 3em;
+   margin-bottom: 1em;
+}
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 1em;
+}
+.lista__link a{
+    font-family: var(--fonte-texto);
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+    color: var(--branco-principal);
+}

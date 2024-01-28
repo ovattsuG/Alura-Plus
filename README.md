@@ -2,7 +2,8 @@
 
 ![capareadme](https://github.com/ovattsuG/Alura-Plus/assets/112031013/fe2f84be-d912-42b9-876f-5a0d663ca2db)
 
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+![Badge Finalizado](http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=BLUE&style=for-the-badge)
+
 
 <h3> Projeto Prático de HTML e CSS - Alura </h3>
 

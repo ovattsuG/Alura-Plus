@@ -108,7 +108,7 @@ especifica de margin para definir somente um lado  */
     font-weight: 700;
     font-size: 3rem;
     color: var(--branco-principal);
-    margin-bottom: 0.3rem;
+    margin-bottom: 1rem;
 }
 .imagem__plataforma {
     display: flex;
@@ -175,6 +175,7 @@ Cada keyframe define um estado específico da animação em um determinado ponto
 .imagem__telas {
     width: 496px;
     height: 338.96px;
+    margin-left:1em;
 }
 
 /* para algumas section reutilizamos classes ja usadas em sections ateriores*/

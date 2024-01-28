@@ -34,4 +34,8 @@ Este projeto é parte integrante do curso "Praticando HTML e CSS" da Alura, e ag
 
 <h3> Autor: </h3>
 
+<<<<<<< HEAD
 [Gustavo Correa]
+=======
+[Gustavo Correa]
+>>>>>>> 20e2c5169a929b7f0ec4c7e67df604dcbd28650c

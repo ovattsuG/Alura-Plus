@@ -1,2 +1,2 @@
 # Alura-Plus
-[!Alura Plus[Alt print do site](img/capareadme.png)]
+[!Alura Plus (img/capareadme.png)]

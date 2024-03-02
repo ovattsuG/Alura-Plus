@@ -33,10 +33,4 @@ Navegador web moderno (Chrome, Firefox, Safari, etc.).
 
 Este projeto é parte integrante do curso "Praticando HTML e CSS" da Alura, e agradeço à plataforma e a instrutora do curso Mônica Mazzochi por fornecer recursos educacionais de qualidade e desafios interessantes durante todo o curso.
 
-<h3> Autor: </h3>
 
-<<<<<<< HEAD
-[Gustavo Correa]
-=======
-[Gustavo Correa]
->>>>>>> 20e2c5169a929b7f0ec4c7e67df604dcbd28650c
